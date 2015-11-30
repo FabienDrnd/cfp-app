@@ -6,6 +6,15 @@
   = link_to '/auth/github', class: 'btn btn-github' do
     %i.icon-github
     | GitHub
+  = link_to '/auth/google_oauth2', class:'btn btn-google' do
+    %i.icon-google
+    | Google
+  = link_to '/auth/linkedin', class:'btn btn-linkedin' do
+    %i.icon-linkedin
+    | LinkedIn
+  = link_to '/auth/open_id', class:'btn btn-openid' do
+    %i.icon-openid
+    | OpenID
   - unless Rails.env.production?
     = link_to '/auth/developer', class: 'btn btn-link' do
       Developer

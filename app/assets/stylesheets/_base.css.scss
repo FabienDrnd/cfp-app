@@ -152,6 +152,20 @@ h3.tags {
   @include icon-generic;
 }
 
+.icon-linkedin {
+  background-image: url(linkedin_32.png);
+  @include icon-generic;
+}
+
+.icon-openid {
+  background-image: url(openid_32.png);
+  @include icon-generic;
+}
+.icon-google {
+  background-image: url(google_32.png);
+  @include icon-generic;
+}
+
 // Consider breaking the following into modules
 
 //datatables
