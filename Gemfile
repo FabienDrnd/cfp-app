@@ -16,6 +16,9 @@ gem 'bootstrap-sass', '~> 3.0.2.1'
 
 gem 'omniauth-github'
 gem 'omniauth-twitter'
+gem 'omniauth-linkedin'
+gem 'omniauth-openid'
+gem 'omniauth-google-oauth2'
 
 gem 'chartkick'
 gem 'groupdate'

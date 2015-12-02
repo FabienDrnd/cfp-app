@@ -71,3 +71,103 @@
 .btn-github.active {
   background-color: #cdcdcd \9;
 }
+
+.btn-linkedin {
+  color: #000000;
+  text-shadow: 0 0.7px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: -o-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: linear-gradient(to bottom, #fafafa, #e6e6e6);
+  background-repeat: repeat-x;
+  border-color: #e6e6e6 #e6e6e6 #c0c0c0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffafafa', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus,
+.btn-linkedin:active,
+.btn-linkedin.active,
+.btn-linkedin.disabled,
+.btn-linkedin[disabled] {
+  color: #000000;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active {
+  background-color: #cdcdcd \9;
+}
+
+.btn-openid{
+  color: #000000;
+  text-shadow: 0 0.7px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: -o-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: linear-gradient(to bottom, #fafafa, #e6e6e6);
+  background-repeat: repeat-x;
+  border-color: #e6e6e6 #e6e6e6 #c0c0c0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffafafa', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-openid:hover,
+.btn-openid:focus,
+.btn-openid:active,
+.btn-openid.active,
+.btn-openid.disabled,
+.btn-openid[disabled] {
+  color: #000000;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn-openid:active,
+.btn-openid.active {
+  background-color: #cdcdcd \9;
+}
+
+.btn-google{
+  color: #000000;
+  text-shadow: 0 0.7px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f2f2f2;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: -o-linear-gradient(top, #fafafa, #e6e6e6);
+  background-image: linear-gradient(to bottom, #fafafa, #e6e6e6);
+  background-repeat: repeat-x;
+  border-color: #e6e6e6 #e6e6e6 #c0c0c0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffafafa', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-google:hover,
+.btn-google:focus,
+.btn-google:active,
+.btn-google.active,
+.btn-google.disabled,
+.btn-google[disabled] {
+  color: #000000;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn-google:active,
+.btn-google.active {
+  background-color: #cdcdcd \9;
+}
+

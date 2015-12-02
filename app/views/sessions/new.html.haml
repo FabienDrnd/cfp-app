@@ -6,6 +6,22 @@
   = link_to '/auth/github', class: 'btn btn-github' do
     %i.icon-github
     | GitHub
+  = link_to '/auth/google_oauth2', class:'btn btn-google' do
+    %i.icon-google
+    | Google
+  = link_to '/auth/linkedin', class:'btn btn-linkedin' do
+    %i.icon-linkedin
+    | LinkedIn
+  = link_to '/auth/open_id', class:'btn btn-openid' do
+    %i.icon-openid
+    | OpenID
   - unless Rails.env.production?
     = link_to '/auth/developer', class: 'btn btn-link' do
       Developer
+
+%br
+%h2 Important Notes
+%ul
+  %li - Always login using the same method, otherwise it will create different accounts.
+  %li - If you have received an invitation to become reviewer, please make sure that the account you are using to login uses the same email address we sent the invitation to. If not please contact us at <a href='mailto:cfp@papis.io'> cfp@papis.io</a>
+
