@@ -243,7 +243,7 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: 'user:email'
   # config.omniauth :twitter, ENV['TWITTER_KEY'], ENV['TWITTER_SECRET']
-  config.omniauth :developer unless Rails.env.production?
+  # config.omniauth :developer unless Rails.env.production?
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
